@@ -21,3 +21,5 @@ http://blog.csdn.net/song19891121/article/details/50099857
 http://www.linuxidc.com/Linux/2016-04/130698.htm  源码编译
 
 new commit one two three five
+
+http://blog.csdn.net/luomuxiaoxiao98/article/details/24414723  Ubuntu - 安装Beyond Compare

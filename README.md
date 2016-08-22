@@ -23,3 +23,6 @@ http://www.linuxidc.com/Linux/2016-04/130698.htm  源码编译
 new commit one two three five
 
 http://blog.csdn.net/luomuxiaoxiao98/article/details/24414723  Ubuntu - 安装Beyond Compare
+
+http://www.open-open.com/lib/view/open1460769614134.html  如何使用Android Studio开发/调试Android源码
+http://blog.csdn.net/yanbober/article/details/48846331

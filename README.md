@@ -26,3 +26,7 @@ http://blog.csdn.net/luomuxiaoxiao98/article/details/24414723  Ubuntu - 安装Be
 
 http://www.open-open.com/lib/view/open1460769614134.html  如何使用Android Studio开发/调试Android源码
 http://blog.csdn.net/yanbober/article/details/48846331
+http://www.open-open.com/lib/view/open1460769514064.html   ASOP
+
+
+fly@ubuntu:~/TP902/alps/vendor/tplink/TPSoundRecorder$ adb push ../../../out/target/product/tplink6755_65_m/system/app/TPSoundRecorder/TPSoundRecorder.apk /system/app/TPSoundRecorder

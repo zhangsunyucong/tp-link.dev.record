@@ -1,5 +1,5 @@
 sudo apt-get install openjdk-7-jdk  
-±à¼­gedit ~/.bashrcÎÄ¼ş£¬Ä©Î²¼Ó£º
+ç¼–è¾‘gedit ~/.bashrcæ–‡ä»¶ï¼Œæœ«å°¾åŠ ï¼š
 
 JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/  
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin  
@@ -11,32 +11,34 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential \
   lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache \
   libgl1-mesa-dev libxml2-utils xsltproc unzip
 
-ºÍ
+å’Œ
 
-C/C++±àÒë»·¾³
+C/C++ç¼–è¯‘ç¯å¢ƒ
 sudo apt-get install vim automake make perl gcc g++ 
 sudo apt-get install vim automake make perl gcc g++ 
-Èç¹ûÊÇDocker¾µÏñ£¬»¹ĞèÒª°²×°ÈçÏÂµÄ¹¤¾ß£º
-sudo apt-get install software-properties-common python-software-properties bc lib32z1 ¡¢
-£¨²»ĞĞÔÙ²Î¿¼http://blog.csdn.net/skykingf/article/details/45370223£©
+å¦‚æœæ˜¯Dockeré•œåƒï¼Œè¿˜éœ€è¦å®‰è£…å¦‚ä¸‹çš„å·¥å…·ï¼š
+sudo apt-get install software-properties-common python-software-properties bc lib32z1 ã€
+ï¼ˆä¸è¡Œå†å‚è€ƒhttp://blog.csdn.net/skykingf/article/details/45370223ï¼‰
 
-±à¼­gedit ~/.bashrcÎÄ¼ş£¬Ä©Î²¼Ó£ºexport USE_CCACHE=1,ÉèÖÃ¸ßËÙ»º´æ
+ç¼–è¾‘gedit ~/.bashrcæ–‡ä»¶ï¼Œæœ«å°¾åŠ ï¼šexport USE_CCACHE=1,è®¾ç½®é«˜é€Ÿç¼“å­˜
 
-1£©ÉèÖÃcache
+1ï¼‰è®¾ç½®cache
 cd aosp 
 prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
-2£©³õÊ¼»¯±àÒë»·¾³
+2ï¼‰åˆå§‹åŒ–ç¼–è¯‘ç¯å¢ƒ
 . build/envsetup.sh
 
-3£©Ñ¡Ôñ±àÒëÄ¿±ê°ü
-ps£ºlunchµÄ·½Ê½ÓĞºÜ¶àÖĞ£¬¿ÉÒÔÊ¹ÓÃlunchÃüÁî²é¿´£¬ÎÒÊ¹ÓÃ×î³£ÓÃµÄ
+3ï¼‰é€‰æ‹©ç¼–è¯‘ç›®æ ‡åŒ…
+psï¼šlunchçš„æ–¹å¼æœ‰å¾ˆå¤šä¸­ï¼Œå¯ä»¥ä½¿ç”¨lunchå‘½ä»¤æŸ¥çœ‹ï¼Œæˆ‘ä½¿ç”¨æœ€å¸¸ç”¨çš„
 lunch aosp_arm-eng
 
-4£©±àÒë
+4ï¼‰ç¼–è¯‘
 make 
-ps: 1.makeºóÃæ¿ÉÒÔ¸ü²ÎÊı£ºÈçÄãµÄ»úÆ÷Ê±Ë«ºË£¬Ã¿ºËË«Ïß³ÌµÄ»°£¬Ê¹ÓÃmake -j4,ÕâÑùËÙ¶È¸ü¿ì£¬µ«±àÒëÊ±Ê¹ÓÃµÄÄÚ´æÒ²¸ü¶à
-2.makeÊ§°Ü»òÍ£Ö¹ºó£¬¿ÉÒÔÊ¹ÓÃmake -k ¼ÌĞø±àÒë
+ps: 1.makeåé¢å¯ä»¥æ›´å‚æ•°ï¼šå¦‚ä½ çš„æœºå™¨æ—¶åŒæ ¸ï¼Œæ¯æ ¸åŒçº¿ç¨‹çš„è¯ï¼Œä½¿ç”¨make -j4,è¿™æ ·é€Ÿåº¦æ›´å¿«ï¼Œä½†ç¼–è¯‘æ—¶ä½¿ç”¨çš„å†…å­˜ä¹Ÿæ›´å¤š
+2.makeå¤±è´¥æˆ–åœæ­¢åï¼Œå¯ä»¥ä½¿ç”¨make -k ç»§ç»­ç¼–è¯‘
 
 
-£¨È«²¿²»Í¨£¬²Î¿¼http://www.cnblogs.com/bluestorm/p/4419135.html£©
+ï¼ˆå…¨éƒ¨ä¸é€šï¼Œå‚è€ƒhttp://www.cnblogs.com/bluestorm/p/4419135.htmlï¼‰
+
+http://www.cnblogs.com/wainiwann/p/3837936.html   android.mkæ–‡ä»¶è¯¦è§£
